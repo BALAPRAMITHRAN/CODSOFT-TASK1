@@ -1,0 +1,90 @@
+body {
+    background-color: #CDE8E5;
+}
+
+.logo {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    color: #071952;  
+    letter-spacing:-3px;
+    font-size: 1.1rem;
+    margin-left: 2rem;
+}
+
+.Nav_header {
+    display: flex;
+    flex-direction: row;
+    gap: 40rem;
+    align-items: last baseline;
+    margin-top: -1rem;
+    position: fixed;
+}
+
+a {
+    text-decoration: none;
+    color: #071952;
+}
+
+a:hover {
+    text-decoration: underline;
+    transition: 1s;
+}
+
+.header_bar {
+    display: flex;
+    gap: 3rem;
+    font-size: 1.3rem;
+    font-family: "Zilla Slab", serif;
+}
+
+.main_pic {
+    display: flex;
+    justify-content: end;
+    margin-right: 10rem;
+    margin-top: 5rem;
+}
+
+.main1 {
+    width: 70%;
+}
+
+.main_content {
+    font-family: "Zilla Slab", serif;
+    margin-right: 18rem;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
+h1 {
+    letter-spacing: .3rem;
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    color:blueviolet;
+    font-weight: 500;
+}
+
+p{
+    letter-spacing: .1rem;
+    color:#071952;
+    font-weight: 500;
+}
+
+.ani {
+    width: 15%;
+}
+
+.icons {
+    font-size: 2rem;
+    display: flex;
+    gap: 2.5rem;
+    margin-left: 5rem;
+}
+
+.profile {
+    display: flex;
+    justify-content: end;
+    margin-right: 20px;
+}
+
+.profile_img:hover {
+    border-color: black;
+    cursor: pointer;
+}
